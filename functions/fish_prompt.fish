@@ -55,7 +55,7 @@ function fish_prompt
     set prompt_color $normal
   end
 
-  # Terminate with a nice prompt char
+  # Terminate with a nice prompt char ⟩  
   echo -e ''
-  echo -e -n -s $prompt_color '⟩ ' $normal
+  echo -e -n -s $prompt_color '∴ ' $normal
 end
